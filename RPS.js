@@ -19,14 +19,12 @@ if (computerPick < 0.34) {
 
 document.write('The computer picked ' + computerChoice);
 
-var compare = funtion (choice1,choice2) {
-   if (choice1 === choice2) {
+var compare = funtion (choice1,choice2) 
+   if (choice1 === choice2) 
       return 'Its a Tie! Congrats~ try again...';
-   }
+   {
   if (choice1 === 'rock') {
      if (choice2 === 'paper') {
         return 'The Computer won! HA HA!'
      } else {
-        return 'You won! Nice shot Kiddo!'
-     }
-   }
+        return 'You won! Nice shot Kiddo!';
